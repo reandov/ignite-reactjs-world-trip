@@ -1,9 +1,14 @@
-import { Flex, Image } from "@chakra-ui/react";
+import { Flex, Stack, Image, Text } from "@chakra-ui/react";
+import { Banner } from "../components/Banner";
+import TravelOptions from "../components/TravelOptions";
 
 export default function Home() {
   return (
-    <Flex justify="center">
-      <Image src="/images/background.png" width="full" height="sm" />
-    </Flex>
+    <>
+      <Banner />
+      {/* <Flex mt="32" justify="center">
+        <TravelOptions />
+      </Flex> */}
+    </>
   );
 }

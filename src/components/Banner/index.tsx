@@ -14,7 +14,7 @@ export function Banner() {
   return (
     <Box>
       <Box
-        bgImage='url("/images/background.png")'
+        bgImage='url("/assets/background.png")'
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="cover"
@@ -47,7 +47,7 @@ export function Banner() {
             pos="absolute"
             right="36"
             bottom="-35"
-            src="/images/airplane.svg"
+            src="/assets/airplane.svg"
             alt="Avião"
             display={isWideVersion ? "" : "none"}
           />

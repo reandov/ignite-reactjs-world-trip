@@ -9,12 +9,12 @@ export default function TravelOption({ icon, label }: TravelOptionProps) {
   const isWideVersion = useBreakpointValue({ base: false, lg: true });
 
   return (
-    <Flex gridGap="6" align="center" direction={{ sm: "row", lg: "column" }}>
+    <Flex gridGap="3" align="center" direction={{ sm: "row", lg: "column" }}>
       <Image
-        src={isWideVersion ? `/images/${icon}.svg` : "/images/elipse.svg"}
+        src={isWideVersion ? `/assets/${icon}.svg` : "/assets/elipse.svg"}
         height={{ sm: 4, lg: 95 }}
       />
-      <Text fontWeight="bold" fontSize={{ sm: 28, lg: 24 }}>
+      <Text fontWeight="medium" fontSize={["24", "24"]}>
         {label}
       </Text>
     </Flex>

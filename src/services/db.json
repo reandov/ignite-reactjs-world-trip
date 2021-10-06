@@ -1,0 +1,34 @@
+{
+  "continents": [
+    {
+      "continent_name": "Asia",
+      "description": "O maior e mais populoso continente",
+      "image_path": "/images/asia.jpg"
+    },
+    {
+      "continent_name": "África",
+      "description": "A maior biodiversidade é aqui",
+      "image_path": "/images/africa.jpg"
+    },
+    {
+      "continent_name": "América do Norte",
+      "description": "No passado, conhecido como Novo Mundo",
+      "image_path": "/images/north_america.jpg"
+    },
+    {
+      "continent_name": "América do Sul",
+      "description": "O último continente a ser descoberto",
+      "image_path": "/images/south_america.jpg"
+    },
+    {
+      "continent_name": "Europa",
+      "description": "A peninsula de peninsulas",
+      "image_path": "/images/europe.jpg"
+    },
+    {
+      "continent_name": "Oceania",
+      "description": "Conhecido pelos corais tropicais",
+      "image_path": "/images/oceania.jpg"
+    }
+  ]
+}

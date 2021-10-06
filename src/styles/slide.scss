@@ -14,15 +14,16 @@
 .swiper-pagination-bullet {
   width: 16px;
   height: 16px;
-  background: #999999;
+  color: #ffba08;
   opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
   background: #ffba08;
+  color: #ffba08;
 }
 
-@media (max-width: 30em) {
+@media (max-width: 720px) {
   .swiper-button-next {
     right: 15px;
   }

@@ -14,7 +14,7 @@ export default function TravelOption({ icon, label }: TravelOptionProps) {
         src={isWideVersion ? `/assets/${icon}.svg` : "/assets/elipse.svg"}
         height={{ sm: 4, lg: 95 }}
       />
-      <Text fontWeight="medium" fontSize={["24", "24"]}>
+      <Text fontWeight="medium" fontSize={["24", "24"]} color="gray.700">
         {label}
       </Text>
     </Flex>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Flex, Heading, Text } from "@chakra-ui/react";
 
 import SwiperCore, {
@@ -25,36 +26,38 @@ export function Slides() {
       >
         {db.continents.map((continent, index) => (
           <SwiperSlide key={index}>
-            <Flex
-              h="100%"
-              align="center"
-              justify="center"
-              direction="column"
-              bgImage={`url(${continent.image_path})`}
-              bgPosition="center"
-              bgRepeat="no-repeat"
-              bgSize="cover"
-            >
-              <Heading
-                fontSize={["2xl", "5xl"]}
-                color="gray.800"
-                fontWeight="700"
-                backgroundColor="rgba(255, 255, 255, 0.4)"
-                padding="2"
+            <Link href={`/continents/${continent.short_name}`}>
+              <Flex
+                h="100%"
+                align="center"
+                justify="center"
+                direction="column"
+                bgImage={`url(${continent.image_path})`}
+                bgPosition="center"
+                bgRepeat="no-repeat"
+                bgSize="cover"
               >
-                {continent.continent_name}
-              </Heading>
-              <Text
-                fontWeight="bold"
-                color="gray.800"
-                fontSize={["sm", "2xl"]}
-                mt={["12px", "4"]}
-                backgroundColor="rgba(255, 255, 255, 0.4)"
-                padding="2"
-              >
-                {continent.description}
-              </Text>
-            </Flex>
+                <Heading
+                  fontSize={["2xl", "5xl"]}
+                  color="gray.800"
+                  fontWeight="700"
+                  backgroundColor="rgba(255, 255, 255, 0.4)"
+                  padding="2"
+                >
+                  {continent.continent_name}
+                </Heading>
+                <Text
+                  fontWeight="bold"
+                  color="gray.800"
+                  fontSize={["sm", "2xl"]}
+                  mt={["12px", "4"]}
+                  backgroundColor="rgba(255, 255, 255, 0.4)"
+                  padding="2"
+                >
+                  {continent.description}
+                </Text>
+              </Flex>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

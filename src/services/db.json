@@ -8,7 +8,39 @@
       "amount_countries": 50,
       "amount_languages": 60,
       "amount_cities": 800,
-      "image_path": "/images/asia.jpg"
+      "image_path": "/images/asia.jpg",
+      "countries": [
+        {
+          "city": "Londres",
+          "country": "Reino Unido",
+          "city_img_path": "/images/countries/europe/london.jpeg",
+          "flag_path": "/images/countries/europe/united_kingdom_flag.png"
+        },
+        {
+          "city": "Paris",
+          "country": "França",
+          "city_img_path": "/images/countries/europe/paris.jpg",
+          "flag_path": "/images/countries/europe/france_flag.png"
+        },
+        {
+          "city": "Roma",
+          "country": "Italia",
+          "city_img_path": "/images/countries/europe/rome.jpg",
+          "flag_path": "/images/countries/europe/italy_flag.jpg"
+        },
+        {
+          "city": "Praga",
+          "country": "República Tcheca",
+          "city_img_path": "/images/countries/europe/prague.jpg",
+          "flag_path": "/images/countries/europe/czech_republic_flag.png"
+        },
+        {
+          "city": "Amsterdã",
+          "country": "Holanda",
+          "city_img_path": "/images/countries/europe/amsterdam.jpg",
+          "flag_path": "/images/countries/europe/holand_flag.png"
+        }
+      ]
     },
     {
       "short_name": "africa",
@@ -18,7 +50,39 @@
       "amount_countries": 50,
       "amount_languages": 60,
       "amount_cities": 800,
-      "image_path": "/images/africa.jpg"
+      "image_path": "/images/africa.jpg",
+      "countries": [
+        {
+          "city": "Londres",
+          "country": "Reino Unido",
+          "city_img_path": "/images/countries/europe/london.jpeg",
+          "flag_path": "/images/countries/europe/united_kingdom_flag.png"
+        },
+        {
+          "city": "Paris",
+          "country": "França",
+          "city_img_path": "/images/countries/europe/paris.jpg",
+          "flag_path": "/images/countries/europe/france_flag.png"
+        },
+        {
+          "city": "Roma",
+          "country": "Italia",
+          "city_img_path": "/images/countries/europe/rome.jpg",
+          "flag_path": "/images/countries/europe/italy_flag.jpg"
+        },
+        {
+          "city": "Praga",
+          "country": "República Tcheca",
+          "city_img_path": "/images/countries/europe/prague.jpg",
+          "flag_path": "/images/countries/europe/czech_republic_flag.png"
+        },
+        {
+          "city": "Amsterdã",
+          "country": "Holanda",
+          "city_img_path": "/images/countries/europe/amsterdam.jpg",
+          "flag_path": "/images/countries/europe/holand_flag.png"
+        }
+      ]
     },
     {
       "short_name": "north_america",
@@ -28,7 +92,39 @@
       "amount_countries": 50,
       "amount_languages": 60,
       "amount_cities": 800,
-      "image_path": "/images/north_america.jpg"
+      "image_path": "/images/north_america.jpg",
+      "countries": [
+        {
+          "city": "Londres",
+          "country": "Reino Unido",
+          "city_img_path": "/images/countries/europe/london.jpeg",
+          "flag_path": "/images/countries/europe/united_kingdom_flag.png"
+        },
+        {
+          "city": "Paris",
+          "country": "França",
+          "city_img_path": "/images/countries/europe/paris.jpg",
+          "flag_path": "/images/countries/europe/france_flag.png"
+        },
+        {
+          "city": "Roma",
+          "country": "Italia",
+          "city_img_path": "/images/countries/europe/rome.jpg",
+          "flag_path": "/images/countries/europe/italy_flag.jpg"
+        },
+        {
+          "city": "Praga",
+          "country": "República Tcheca",
+          "city_img_path": "/images/countries/europe/prague.jpg",
+          "flag_path": "/images/countries/europe/czech_republic_flag.png"
+        },
+        {
+          "city": "Amsterdã",
+          "country": "Holanda",
+          "city_img_path": "/images/countries/europe/amsterdam.jpg",
+          "flag_path": "/images/countries/europe/holand_flag.png"
+        }
+      ]
     },
     {
       "short_name": "south_america",
@@ -38,7 +134,39 @@
       "amount_countries": 50,
       "amount_languages": 60,
       "amount_cities": 800,
-      "image_path": "/images/south_america.jpg"
+      "image_path": "/images/south_america.jpg",
+      "countries": [
+        {
+          "city": "Londres",
+          "country": "Reino Unido",
+          "city_img_path": "/images/countries/europe/london.jpeg",
+          "flag_path": "/images/countries/europe/united_kingdom_flag.png"
+        },
+        {
+          "city": "Paris",
+          "country": "França",
+          "city_img_path": "/images/countries/europe/paris.jpg",
+          "flag_path": "/images/countries/europe/france_flag.png"
+        },
+        {
+          "city": "Roma",
+          "country": "Italia",
+          "city_img_path": "/images/countries/europe/rome.jpg",
+          "flag_path": "/images/countries/europe/italy_flag.jpg"
+        },
+        {
+          "city": "Praga",
+          "country": "República Tcheca",
+          "city_img_path": "/images/countries/europe/prague.jpg",
+          "flag_path": "/images/countries/europe/czech_republic_flag.png"
+        },
+        {
+          "city": "Amsterdã",
+          "country": "Holanda",
+          "city_img_path": "/images/countries/europe/amsterdam.jpg",
+          "flag_path": "/images/countries/europe/holand_flag.png"
+        }
+      ]
     },
     {
       "short_name": "europe",
@@ -48,7 +176,39 @@
       "amount_countries": 50,
       "amount_languages": 60,
       "amount_cities": 800,
-      "image_path": "/images/europe.jpg"
+      "image_path": "/images/europe.jpg",
+      "countries": [
+        {
+          "city": "Londres",
+          "country": "Reino Unido",
+          "city_img_path": "/images/countries/europe/london.jpeg",
+          "flag_path": "/images/countries/europe/united_kingdom_flag.png"
+        },
+        {
+          "city": "Paris",
+          "country": "França",
+          "city_img_path": "/images/countries/europe/paris.jpg",
+          "flag_path": "/images/countries/europe/france_flag.png"
+        },
+        {
+          "city": "Roma",
+          "country": "Italia",
+          "city_img_path": "/images/countries/europe/rome.jpg",
+          "flag_path": "/images/countries/europe/italy_flag.jpg"
+        },
+        {
+          "city": "Praga",
+          "country": "República Tcheca",
+          "city_img_path": "/images/countries/europe/prague.jpg",
+          "flag_path": "/images/countries/europe/czech_republic_flag.png"
+        },
+        {
+          "city": "Amsterdã",
+          "country": "Holanda",
+          "city_img_path": "/images/countries/europe/amsterdam.jpg",
+          "flag_path": "/images/countries/europe/holand_flag.png"
+        }
+      ]
     },
     {
       "short_name": "oceania",
@@ -58,7 +218,39 @@
       "amount_countries": 50,
       "amount_languages": 60,
       "amount_cities": 800,
-      "image_path": "/images/oceania.jpg"
+      "image_path": "/images/oceania.jpg",
+      "countries": [
+        {
+          "city": "Londres",
+          "country": "Reino Unido",
+          "city_img_path": "/images/countries/europe/london.jpeg",
+          "flag_path": "/images/countries/europe/united_kingdom_flag.png"
+        },
+        {
+          "city": "Paris",
+          "country": "França",
+          "city_img_path": "/images/countries/europe/paris.jpg",
+          "flag_path": "/images/countries/europe/france_flag.png"
+        },
+        {
+          "city": "Roma",
+          "country": "Italia",
+          "city_img_path": "/images/countries/europe/rome.jpg",
+          "flag_path": "/images/countries/europe/italy_flag.jpg"
+        },
+        {
+          "city": "Praga",
+          "country": "República Tcheca",
+          "city_img_path": "/images/countries/europe/prague.jpg",
+          "flag_path": "/images/countries/europe/czech_republic_flag.png"
+        },
+        {
+          "city": "Amsterdã",
+          "country": "Holanda",
+          "city_img_path": "/images/countries/europe/amsterdam.jpg",
+          "flag_path": "/images/countries/europe/holand_flag.png"
+        }
+      ]
     }
   ]
 }
